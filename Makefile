@@ -22,7 +22,7 @@ example_dir = $(abspath ../../..)/fpga/bare_metal/examples
 
 project_name = lowrisc-chip-imp
 BACKEND ?= v
-CONFIG=CombinationsConfig
+CONFIG=LightDebuggerConfig
 
 VIVADO = vivado
 
