@@ -1,4 +1,4 @@
-Here we edit lowRISC's nexys4_ddr repository so it will build our configuration of the Rocket Chip, and so the constraints file contains all the pins we will use.
+Here we edit lowRISC's nexys4_ddr repository so it will build our configuration of the Rocket Chip, and so the constraints file contains all the pins we will use. Check out our [lowRISC extension](https://github.com/MaddieBurbage/lowrisc-extended) to see where this is used.
 
 ## See LICENSE.Cambridge for license details.
 
