@@ -1,7 +1,9 @@
-# See LICENSE.Cambridge for license details.
+Here we edit lowRISC's nexys4_ddr repository so it will build our configuration of the Rocket Chip, and so the constraints file contains all the pins we will use.
 
-lowRISC Digilent NEXYS4-DDR Board Development Demo
-========================================================
+## See LICENSE.Cambridge for license details.
+
+ lowRISC Digilent NEXYS4-DDR Board Development Demo
+--------------------------------------------------------
 
 (Not a stand-alone git repo. Please clone https://github.com/lowrisc/lowrisc-chip.git to have this as a submodule of <lowrisc-chip>/fpga/board/nexys4)
 
@@ -9,8 +11,8 @@ Requirement:
 
   **Vivado 2018.1** and **lowRISC development environment**
 
-How to run the demo:
---------------------------------------------------------
+### How to run the demo:
+
 
 * Generate bit-stream for downloading
 
@@ -24,8 +26,7 @@ How to run the demo:
 
         make vivado
 
-Other Make targets
---------------------------------------------------------
+### Other Make targets
 
 * Generate the FPGA backend Verilog files
 
